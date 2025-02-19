@@ -1,8 +1,13 @@
-const MainPage = () => { 
+import BasicLayout from "../layouts/BasicLayout";
+
+const MainPage = () => {
     return (
-        <div className="text-3xl">
-            <div>MainPage</div>
-        </div>
+        <BasicLayout>
+
+            <div>
+                <div>MainPage</div>
+            </div>
+        </BasicLayout>
     );
 }
 
