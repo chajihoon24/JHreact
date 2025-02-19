@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import root from "./router/root";
+import { RouterProvider } from 'react-router-dom';
+
 
 function App() {
   return (
-  <h1 className='text-3xl font-bold underline'>안녕하세요 !!!</h1>
+    <RouterProvider router={root}/>
   );
 }
 
