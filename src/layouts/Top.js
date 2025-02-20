@@ -9,9 +9,8 @@ const Top = () => {
                 <Container>
                     <Navbar.Brand href="/">React</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="/about">about</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/TODO">TODO</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
