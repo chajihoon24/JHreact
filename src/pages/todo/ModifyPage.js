@@ -21,3 +21,4 @@ const ModifyPage = ({ tno }) => {
 }
 export default ModifyPage;
 
+
